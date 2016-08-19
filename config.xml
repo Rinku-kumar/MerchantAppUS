@@ -7,7 +7,6 @@
         <author href="http://kryptosmobile.com" email="info@kryptosmobile.com">Kryptos Mobile Team</author>
         <feature name="http://api.phonegap.com/1.0/device" />
         <!--<preference name="phonegap-version" value="3.7.0"/>-->
-        <preference name="phonegap-version"           value="cli-5.2.0" />
         <preference name="permissions"                value="none"/>
         <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
         <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
@@ -21,7 +20,7 @@
         <preference name="show-splash-screen-spinner" value="true" />           <!-- ios: if set to false, the spinner won't appear on the splash screen during app loading -->
         <preference name="auto-hide-splash-screen"    value="true" />           <!-- ios: if set to false, the splash screen must be hidden using a JavaScript API -->
         <preference name="disable-cursor"             value="false" />          <!-- blackberry: prevents a mouse-icon/cursor from being displayed on the app -->
-        <preference name="android-minSdkVersion"      value="14" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+        <preference name="android-minSdkVersion"      value="7" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
         
         <preference name="android-targetSdkVersion" value="22" />
         
@@ -103,26 +102,22 @@
         <gap:plugin name="org.apache.cordova.vibration"/>
         <gap:plugin name="cordova-plugin-statusbar" source="npm"/>
         <gap:plugin name="de.appplant.cordova.plugin.email-composer"/>
-        <gap:plugin name="com.hutchind.cordova.plugins.launcher" />
+        <gap:plugin name="com.hutchind.cordova.plugins.launcher"/>
         <gap:plugin name="ch.ti8m.documenthandler"/>
         <gap:plugin name="cordova-plugin-whitelist" source="npm" />
         <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
-        <plugin name="com.teamnemitoff.phonedialer" spec="0.3.0" source="pgb" />
-        <!--<gap:plugin name="com.parse.cordova.core.pushplugin" version="0.1.0" />-->
-       <gap:plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
+        <gap:plugin name="com.parse.cordova.core.pushplugin" version="0.1.0" />
+        <gap:plugin name="org.apache.cordova.camera" spec="0.3.6" source="pgb" />
         <gap:plugin name="cordova-plugin-actionsheet" source="npm" />
-        <plugin name="com.teamnemitoff.phonedialer" source="pgb" />
-        
-        <!--<gap:plugin name="de.appplant.cordova.plugin.local-notification" /> -->
-        
-		<!--
-        push plugin for ios 
-        <gap:plugin name="com.medlei.pushplugin" version="0.1.2" >
-            <param name="APP_ID" value="wdSIRE4zBKJ7LI8siSrQLwtlHK6DB5VFBHNaswaZ" />
-            <param name="CLIENT_KEY" value="gNSZ6NnkBSmXTgeW3p9K43iGX7gM7U7cCoUrxyhg" />
-        </gap:plugin> -->
+        <!--<gap:plugin name="de.appplant.cordova.plugin.local-notification" />-->
 
-         <!-- push plugin for android-->
+        <!-- push plugin for ios -->
+        <!--<gap:plugin name="com.medlei.pushplugin" version="0.1.2" >
+            <param name="APP_ID" value="7XVKDGsp1PvoEIl0ewxDkJ35n6Hwtdbnifp9iKmq" />
+            <param name="CLIENT_KEY" value="mCiSHfaUFggnIWYO6KpRJhblenWRYGsHO87Yk7A3" />
+        </gap:plugin>-->
+
+       <!-- push plugin for android-->
         <gap:plugin name="com.parse.cordova.core.pushplugin" version="0.1.0" />
 
 
